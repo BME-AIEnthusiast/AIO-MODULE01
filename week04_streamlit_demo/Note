@@ -1,0 +1,11 @@
+!conda create --name streamlit_env
+!conda activate streamlit_env
+
+!pip install streamlit
+!streamlit hello
+!streamlit –version
+!streamlit cache clear
+>>> import streamlit as st
+
+## đây là lệnh chạy 
+!streamlit run main.py
